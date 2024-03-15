@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet" />
+        <meta charset="UTF-8">
+        <title>How's the Weather?</title>
+    </head>
+    <body>
+    <main>
+        <section id="weather-wrapper">
+            <h1>How's the Weather Today?</h1>
+            <div id="weather-search">
+                <input id="search" type="text" placeholder="Search by City" />
+                <input id="submit" type="submit" onclick="fetchWeather()" value="Search" />
+            </div>
+            <div id="weather-data" style="display: none;"></div>
+        </section>
+        
+    </main>
+    <script src="index.js"></script>
+    </body>
+</html>
